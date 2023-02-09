@@ -1,0 +1,27 @@
+Package: transPlotR
+Title: Visualize Transcript Structures in Elegant Way
+Version: 0.0.2
+Authors@R: 
+    person("Junjun", "Lao", , "3219030654@stu.cpu.edu.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7692-9105"))
+Description: To visualize the gene structure with multiple isoforms better, I developed this package to draw different transcript structures easily.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    cowplot,
+    dplyr,
+    ggplot2,
+    purrr,
+    magrittr,
+    ggarchery,
+    geomtextpath,
+    stats
+Depends: 
+    R (>= 2.10),
+    tidyverse
+URL: https://github.com/junjunlab/transPlotR
+BugReports: https://github.com/junjunlab/transPlotR/issues
+LazyData: true
+
